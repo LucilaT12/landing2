@@ -1,0 +1,131 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.upper {
+	display: flex;
+	flex-direction: row;
+}
+
+.banner-wrap {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/Harri/Frente.jpg');
+	background-size: cover;
+	background-position: bottom;
+	padding: 0 100px;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Righteous';
+	color: white;
+	font-size: 50px;
+	margin: 500px 0 300px 0;
+	letter-spacing: 6px;
+	text-shadow: 2px 2px 2px #a88b32;
+}
+
+.banner-wrap p {
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 350px;
+	opacity: 0.85;
+}
+
+button {
+	background-color: red;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: white;
+	padding: 20px 42px;
+	border-radius: 6px;
+	display: inline-block;
+	text-decoration: none;
+	transition: 0.24s;
+	font-size: 22px;
+	font-weight: bold;
+	border: none;
+}
+
+.cards-wrap {
+	width: 900px;
+	margin: 60px auto;
+	text-align: center;
+}
+
+h2 {
+	font-size: 55px;
+	padding: 0 25px;
+}
+
+.t-stroke {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+ 
+.t-shadow {
+  text-shadow: 4px 4px #a88b32;
+}
+
+.cards-container {
+	background-color: white;
+	padding: 0 150px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card {
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 25px 10px;
+}
+
+.card h3{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 30px;
+	margin: 0;
+}
+
+.card p{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+	height: 160px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 100px;
+	left: 0px
+	right: 0px;
+}
+
+.foot {
+	width: 500px;
+	height: 150px;
+}
+
+.foot h4 {
+	font-weight: lighter;
+	font-style: italic;
+}
+
+.redes {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+}
+
+.redes p{
+	margin: 10px;
+}
